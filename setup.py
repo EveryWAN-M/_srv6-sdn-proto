@@ -44,9 +44,9 @@ setup(
     packages=['srv6_sdn_proto'],  # Required
     install_requires=[
         'setuptools',
-        'grpcio>=1.19.0',
-        'grpcio-tools>=1.19.0',
-        'protobuf>=3.7.1',
-        'six>=1.12.0'
+        'grpcio==1.41.0',
+        'grpcio-tools==1.41.0',
+        'protobuf==3.19.1',
+        'six==1.16.0'
     ]
 )
